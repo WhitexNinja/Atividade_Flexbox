@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercício 5</title>
+    <style>
+        main{
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        body{
+            margin: 0;
+        }
+
+        #div1{
+            background-color: rgb(50, 155, 50);
+            text-align: center;
+            flex: 1;
+        }
+
+        #div2{
+            background-color: dodgerblue;
+            flex: 1;
+        }
+
+        #div3{
+            background-color: yellowgreen;
+            flex: 6;
+        }
+
+        #div4{
+            background-color: rgb(50, 155, 50);
+            text-align: center;
+            flex: 1;
+      }
+
+        #div5{
+            display: flex;
+            flex: 10;
+        }
+
+    </style>
+</head>
+<body>
+    <main>
+        <div id="div1">Cabeçalho</div>
+        <div id="div5">
+            <div id="div2">Barra Lateral</div> 
+            <div id="div3">Área de Conteúdo Principal</div>
+        </div>
+        <div id="div4">Rodapé</div>
+    </main>
+</body>
+</html>
